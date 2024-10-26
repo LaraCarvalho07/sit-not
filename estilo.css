@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial;
+    width: 100%;
+    height:100%;
+
+}
+.cabecalho{
+    background-color: #6da681;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    padding: 10px;
+
+
+
+
+}
+
+
+.logoTopo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.cabecalho img{
+    width: 100%;
+    height: 90px;
+}
+.menus{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+.btnacessar{
+    background-color: #17730a;
+    color: #f3e2d2;
+    border-radius: 50px;
+    padding: 8px 40px;
+}
+
+.btnacessar2{
+    background-color: #17730a;
+    color: #f3e2d2;
+    border: #0c0c0c;
+    padding: 10px 50px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    background-color: #98bfa5;
+    width: 100%;
+    height: 600px;
+}
+
+.banner img{
+    background-color: #e8efe6;
+    width: 100%;
+    height: 350px;
+}
+.itensbanner img{
+    width: 480px;
+    padding:60px 10px ;
+}
+
+.rodape {
+    background-color: #6da681;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.rodape img{
+    width: 80px;
+    align-self: flex-end;
+}
+.containerRodape{
+    text-align: center;
+}
+
+
+
+
+
+.card {
+    background-color: #e8f8e5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    height: 300px;
+    max-width: 400px;
+}
+.card1 {
+    background-color: #f2fdfd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.card1 img {
+    height: 300px;
+    max-width: 400px;
+}
+
+h3{
+    text-align: center;
+    font-family: Georgia, serif;
+}
